@@ -1,10 +1,9 @@
 #include<stdio.h>
-#include<string.h>
 int main()
 {
     char cha[201];
-    int i,j;
-    scanf("%s",&cha);
+    int i;
+    scanf("%s",cha);
     for(i=0; i<strlen(cha); i++)
     {
         if(cha[i]!=cha[i+1])
