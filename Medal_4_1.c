@@ -29,7 +29,7 @@ int main()
             max=sum;
             locamax=i;
         }
-        if(min>sum)
+        else if(min>sum)
         {
             min=sum;
             locamin=i;
